@@ -1,0 +1,165 @@
+.border-style {
+    border-bottom: 1px dashed #676767;
+}
+
+.hero-section {
+    color: #000;
+    /* background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; */
+    background-color: azure;
+    /* min-height: 350px; */
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.register-section {
+    margin: 10px auto;
+}
+.form-user,
+.input-login {
+    margin-bottom: 10px;
+}
+
+/* Hùng làm */
+
+.info-form-post label {
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.info-form-post input {
+    overflow: visible;
+    width: 75%;
+    padding: 4px;
+    border: 1px gray solid;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.info-form-post input[type="file"] {
+    border: none;
+}
+
+#add-skill {
+    background-color: #25b1e7;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+}
+
+.experience {
+    margin-top: 40px;
+    border-top: 1px solid gray;
+    padding-top: 28px;
+}
+
+.experience .row-profile:nth-child(3) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.row-profile textarea {
+    width: 50%;
+    height: 200px;
+    border-radius: 16px;
+}
+
+.info-form-post .media {
+    display: block !important;
+}
+
+.info-form-post input[type="submit"] {
+    background-color: #25b1e7;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+    width: 120px;
+    margin-bottom: 25px;
+}
+
+.container-info-detail {
+    display: inline-block;
+}
+
+.container {
+    min-height: 645px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 65%;
+    align-items: center;
+    padding: 24px;
+}
+
+.full-member-div {
+    display: flex;
+    justify-content: center;
+}
+
+.info img {
+    width: 28%;
+    padding: 8px;
+}
+
+.info div span {
+    color: #000;
+    opacity: 0.6;
+}
+
+.info div p {
+    display: inline-block;
+}
+.info div {
+    font-weight: 600 !important;
+    margin-bottom: 12px;
+}
+
+.info-user {
+    margin-left: 20px;
+}
+
+.app-contact {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e79999;
+    color: #fff;
+}
+
+.app-contact i {
+    font-size: 30px;
+    padding: 12px 0;
+}
+
+/* P */
+
+.edit-info{
+    display: flex;
+    justify-content: end;
+    margin: 10px 194px 0 0;
+    transition: all 0.5s;
+}
+
+.info-form-edit label{
+    font-weight: bold;
+}
+
+
+.info-form-edit input{
+    min-width: 60%;
+}
+
